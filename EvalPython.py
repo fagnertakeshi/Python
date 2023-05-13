@@ -1,0 +1,6 @@
+x, k = input().split(' ')
+k = int(k)
+expression = input()
+expression = expression.replace('x', str(x))
+result = eval(expression)
+print(result == k)
